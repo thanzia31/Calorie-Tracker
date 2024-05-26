@@ -1,0 +1,262 @@
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Items</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4. 1/js/bootstrap.min.js"></script>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #243545;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #243545;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  width: 150px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+
+
+
+
+
+/* CSS */
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+    </style>
+
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        
+		
+    <div style="width: 90%;margin-left: 10px;visibility:hidden"class="form-group;" >
+        <label>User Name</label>
+        {% render_field form.user type="text" class="form-control" id="exampleInputUsername" placeholder="Username"  %}
+        </div>
+
+
+<div style="width: 90%;margin-left: 10px;" class="form-group">
+    <label>Food</label> 
+   {% render_field form.food class="form-control" placeholder="First Name" type="text" list="food" id="foodItemInput" %}
+
+   <datalist id="food">
+    {% for i in food %}
+    <option value="{{i}}"></option>
+    {% endfor %}
+   </datalist>
+</div>
+<p id="unitOfMeasurement"></p>
+
+    <script>
+        $(document).ready(function(){
+            
+            $("#foodItemInput").on('input', function() {
+                
+                var item_name = $(this).val();
+
+                
+                $.ajax({
+                    type: 'GET',
+                    url: '/get_food_item/',
+                    data: { 'item_name': item_name },
+                    success: function(response) { 
+                        
+                        $("#unitOfMeasurement").text(response.unit_of_measurement);
+                    }
+                });
+            });
+        });
+    </script>
+<div style="width: 90%;margin-left: 10px;" class="form-group">
+    <label>Quantity</label> 
+{% render_field form.quantity type="number" class="form-control" placeholder="Quantity" %}
+</div>
+
+<div style="width: 90%;margin-left: 10px;" class="form-group">
+    <label>Meal Time</label> 
+{% render_field form.meal_time type="text" class="form-control" placeholder="Last Name" %}
+</div>
+<center>
+<button class="button-50" role="button" type="submit">Add Item</button>
+</center>
+    </form>
+
+    <br><br><br>
+
+    {% if data %}
+
+    <table>
+        <thead>
+            <th>Food</th>
+
+            <th>Quantity</th>
+            
+            <th>Calorie</th>
+            <th>Meal Time</th>
+        </thead>
+
+        {% for i in data %}
+
+        <tr>
+            <td>{{i.food}}</td>
+            <td>{{i.quantity}}</td>
+            <td>{{i.calorie}}</td>
+            <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+            <td><a href="/deleteitem/{{i.id}}">Delete</a></td>
+            <td><a href="/updateitem/{{i.id}}">Update</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+{% endif %}
+
+<br><br><br>
+<center>
+<button class="button-30" role="button"><a style="color: #099c95;text-decoration: none;font-size: larger;" href="/accounts/login/index1" >Home</a></button>
+</center>
+</body>
+</html>

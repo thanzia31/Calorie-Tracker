@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualize</title>
+   
+    <style>
+         .box {
+            margin-left: 20px;
+  background-color: #FFF;
+  width: 50%;
+  height: box-content;
+  box-shadow: 0px 1px 4px 1px #777;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border:50px;
+  background-color: black;
+  padding: 14px 28px;
+    border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+ 
+}
+    </style>
+</head>
+<body>
+    <button type="button" class="block"><a style=" text-decoration: none;font-size: x-large;color: white;" href="/accounts/login/index1">Home</a></button>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">DAY 1</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph1|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">DAY 2</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph2|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">DAY 3</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph3|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">DAY 4</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph4|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">DAY 5</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph5|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">DAY 6</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph6|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">DAY 7</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph7|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+    <br><br>
+    <div class="box">
+        <center>
+        <b style="font-size: larger;">Record For Past 7 Days</b></center>
+        <br>
+        <h4 style="margin-left: 20px;">{{graph|safe}}</h4>
+        <br>
+    </div>
+    <br><br>
+   
+    
+</body>
+</html>

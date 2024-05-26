@@ -1,0 +1,293 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Home</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      
+    <style>
+     @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+ 
+     .navbar{
+            background-color: #243545;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: #099c95
+        }
+        
+        
+        
+
+
+
+        table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+
+
+/* CSS */
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+    </style>
+</head>
+<body>
+   
+    <header>
+        <nav class="navbar">
+            <ul>
+                
+               
+                <li><a href="/accounts/logout">Log Out</a></li>
+                  <li><a href="/profile/">Profile</a></li>
+                  <li><a href="/about">About</a></li>
+                  
+                  <li><a href="/additem">Add Item</a></li>
+                
+                 <li><a href="/trackrecord">Track Record</a> </li>
+                <li><a href="/recc_item">Get Reccomendation</a></li>
+            
+                
+            </ul>
+        </nav>
+    </header>
+   
+   
+
+     <br><br>
+  <div style="margin-left: 950px;position:absolute">
+  <b>Calorie Needed Per Day:{{user_detail.calorie_needed}}</b>  
+  <br><br>
+  <b>Calorie Consumed:{{tcal}}</b>
+  <br><br>
+  <b id="demo"></b>
+  <script>
+    let val='{{calneed|escapejs}}'
+    
+    
+    if (val < 0 ){
+        document.getElementById("demo").innerHTML ="You have consumed " +Math.abs(val) + " calories more than your limit  "
+    }
+    else{
+        document.getElementById("demo").innerHTML ="You should consume {{calneed|escapejs}} calories more"
+    }
+  </script>
+ 
+  </div>  
+<br><br>
+  
+  <b style="font-weight: 1500;font-size: x-large;color: #099c95;margin-left: 280px;">BREAKFAST</b>
+  {%if bf %}
+  <table>
+    <thead>
+        <th>Food</th>
+
+        <th>Quantity</th>
+        
+        <th>Calorie</th>
+        
+        <th>Total Calories</th>
+    </thead>
+   
+    {% for i in bf %}
+
+    <tr>
+        
+    
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+         {% endfor %}
+ <td>{{tbf}}</td>
+    
+      
+    </tr>
+    
+
+   
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;">You haven't added what you had for Breakfast</b>
+<br><br><br>
+<button class="button-50" role="button" style="margin-left:300px ;"><a href="/additem"> Click here to add item</a></button>
+<hr style="border-color: black;">
+{% endif %}
+<br><br>
+<b style="font-weight: 1500;font-size: x-large;color: #099c95;margin-left: 280px;">LUNCH</b>
+{% if ln %}
+<table>
+    <thead>
+        <th>Food</th>
+
+        <th>Quantity</th>
+        
+        <th>Calorie</th>
+        <th>Total Calories</th>
+    </thead>
+   
+    {% for i in ln %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        {% endfor %}
+    <td>{{tln}}</td>
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;">You haven't added what you had for Lunch</b>
+<br><br><br>
+<button class="button-50" role="button" style="margin-left:300px ;"><a href="/additem"> Click here to add item</a></button>
+<hr style="border-color: black;">
+{% endif %}
+<br><br>
+<b style="font-weight: 1500;font-size: x-large;color: #099c95;margin-left: 280px;">SNACKS</b>
+{% if sn %}
+<table>
+    <thead>
+        <th>Food</th>
+
+        <th>Quantity</th>
+        
+        <th>Calorie</th>
+       <th>Total Calories</th>
+    </thead>
+    
+    {% for i in sn %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+      {% endfor %}
+    <td>{{tsn}}</td>
+    </tr>
+   
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;">You haven't added what you had for Snack</b>
+<br><br><br>
+<button class="button-50" role="button" style="margin-left:300px ;"><a href="/additem"> Click here to add item</a></button>
+<hr style="border-color: black;">
+{% endif %}
+<br><br>
+<b style="font-weight: 1500;font-size: x-large;color: #099c95;margin-left: 280px;">DINNER</b>
+{% if dn %}
+<table>
+    <thead>
+        <th>Food</th>
+
+        <th>Quantity</th>
+        
+        <th>Calorie</th>
+          <th>Total Calories</th>   
+    </thead>
+
+    {% for i in dn %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+       {% endfor %}
+    <td>{{tdn}}</td>
+      
+    </tr>
+    
+   
+
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;">You haven't added what you had for Dinner</b>
+<br><br><br>
+<button class="button-50" role="button" style="margin-left:300px ;"><a href="/additem"> Click here to add item</a></button>
+<hr style="border-color: black;">
+{% endif %}
+
+</body>
+</html>

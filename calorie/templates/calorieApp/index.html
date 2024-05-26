@@ -1,0 +1,172 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    
+      
+    <style>
+     @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+ 
+     .navbar{
+            background-color: #243545;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: #099c95
+        }
+
+       
+
+/* CSS */
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+#wrapper{
+  width:1500px
+}
+        </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+        <nav class="navbar">
+            <ul>
+                
+               
+                <li><a href="/accounts/login">Log In</a></li>
+                  <li><a href="/register">Register</a></li>
+                  <li><a href="/about">About</a></li>
+                  
+                 <img style="height:60px;width:60px;margin-top: 5px;margin-left: 10px;" src="{% static 'images/logo2.png' %}">
+               
+                 
+            </ul>
+        </nav>
+    </header>
+
+<br><br><br>
+<center>
+<img style="width:80%;margin-left:30px ;" src="{% static 'images/logo_theme1.png' %}">
+</center>
+<br><br><br>
+<div style="height:box-content">
+    
+    <img style="width:600px;height:520px;margin-left: 20px;border-color: black;border: 1px solid black;" id="imgBanner" src="" alt=""/>
+    
+    <h4 style="margin-left: 660px;margin-top: -350px;font-size: xx-larger;">Want to eat a Know how many calories you Eat in a Day??</h4>
+    <h3 style="margin-left: 660px;margin-top: 20px;font-size: xx-larger;">You are in a Perfect Place for it</h3>
+    <h3 style="margin-left: 660px;margin-top: 20px;font-size: xx-larger;">Know the calories of all kinds of food here</h3>
+    
+    <button style="margin-left: 760px;margin-top: 20px;" class="button-50" role="button"><a href="/register" >Get Started</a></button>
+
+</div>
+<br><br>
+<div>
+
+<img style="float:right;margin-top: 180px;border:2px solid black;" src="{% static 'images/doc.jpg' %}" />
+<h4 style="margin-top: 180px;float: left;margin-left: 20px;font-size: x-large;">Here You Can Know How Many Calories Your Body Needs and Keep Track Of It</h4>
+<h4 style="float: left;margin-left: 100px;font-size: x-large;">Track and Visulaize Your Progress </h4>
+</div>
+    <script type="text/javascript">
+        // Initialize images in an array
+      var picPaths = ['{% static "images/food.jpg" %}','{% static "images/food1.jpg" %}','{% static "images/food2.jpg" %}','{% static "images/food3.jpg" %}','{% static "images/food4.jpg" %}','{% static "images/food5.jpg" %}'];
+      // An index to track the contender image 
+      var imageIndex = 0;
+      var bannerImage; 
+      
+      // An event callback for starting the interval
+      function startInterval() {
+      setInterval(displayNextImage, 2000);
+      }
+      
+      function displayNextImage() {
+      bannerImage.src = picPaths[imageIndex];
+      if(imageIndex === (picPaths.length-1)) {
+        imageIndex = 0;
+      }
+      else {
+        imageIndex = imageIndex + 1; // It can be replaced with imageIndex ++  
+      }
+      }
+      
+      window.onload=function() {
+      bannerImage = document.getElementById('imgBanner');
+      displayNextImage()
+      startInterval();
+      }
+      </script>
+      
+    
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,434 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Record</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4. 1/js/bootstrap.min.js"></script>
+    <style>
+        .box {
+            margin-left: 20px;
+  background-color: #FFF;
+  width: 50%;
+  height: box-content;
+  box-shadow: 0px 1px 4px 1px #777;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+
+}
+  tr:nth-child(even) {background-color: #f2f2f2;
+}
+
+.part{
+    width:100%;
+    height:auto;
+}
+
+.navbar{
+            background-color: #243545;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: #099c95
+        }
+        
+
+
+
+.h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -1px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: black;
+  outline: none;
+  text-align: center;
+}
+
+.h1:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                
+               
+                <li><a href="/accounts/logout">Log Out</a></li>
+                  <li><a href="/profile/">Profile</a></li>
+                  
+                  
+                  
+                  <li><a href="/accounts/login/index1">Home</a></li>
+                  <li><a href="/visualize">Visualize Your Record</a></li>
+                
+                 
+
+            
+                
+            </ul>
+        </nav>
+    </header>
+   
+    <br><br>
+<center>
+    <b class="h1">Calorie Needed:{{user.calorie_needed}}</b>
+</center>
+    <br><br><br><br>
+    <!--ONE-->
+  <div class="part">
+
+    <div style="float: right;margin-right: 130px;">
+
+    
+    <br>
+    <b style="margin-left:900px">Calorie Consumed for the day:{{cal1}}</b>
+    
+</div>
+
+    <div class="box" >
+        <br>
+        
+        <b style="font-size: larger;margin-left: 25px;">{{d1}}</b>
+        <br>
+        {% if item1 %}
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Meal Time</th>
+            </thead>
+            {% for i in item1 %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+        {% endfor %}
+    
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;margin-left: 30px;">OOPS!!! Seems like You haven't added any data for this day</b>
+<br><br><br>
+        </table>
+        {% endif %}
+
+       
+    </div>
+
+
+</div>
+    <br><br><br>
+<!--TWO-->
+    <div class="part">
+
+        <div style="float: right;margin-right: 130px;">
+    
+        
+        <br>
+        <b style="margin-left:900px">Calorie Consumed for the day:{{cal2}}</b>
+       
+    </div>
+    <div class="box">
+        <br>
+        
+        <b style="font-size: larger;margin-left: 25px;">{{d2}}</b>
+        <br>
+        {% if item2 %}
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Meal Time</th>
+            </thead>
+            {% for i in item2 %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+        {% endfor %}
+    
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;margin-left: 30px;">OOPS!!! Seems like You haven't added any data for this day</b>
+<br><br><br>
+        </table>
+        {% endif %}
+     
+    </div>
+    </div>
+    <br><br><br>
+    <!--THREE-->
+    <div class="part">
+
+        <div style="float: right;margin-right: 130px;">
+    
+        
+        <br>
+        <b style="margin-left:900px">Calorie Consumed for the day:{{cal3}}</b>
+    </div>
+    <div class="box">
+        <br>
+        
+        <b style="font-size: larger;margin-left: 25px;">{{d3}}</b>
+        <br>
+        {% if item3 %}
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Meal Time</th>
+            </thead>
+            {% for i in item3 %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+        {% endfor %}
+    
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;margin-left: 30px;">OOPS!!! Seems like You haven't added any data for this day</b>
+<br><br><br>
+        </table>
+        {% endif %}
+    </div>
+    </div>
+    <br><br><br>
+    <!--FOUR-->
+    <div class="part">
+
+        <div style="float: right;margin-right: 130px;">
+    
+        
+        <br>
+        <b style="margin-left:900px">Calorie Consumed for the day:{{cal4}}</b>
+    </div>
+    <div class="box">
+        <br>
+        
+        <b style="font-size: larger;margin-left: 25px;">{{d4}}</b>
+        <br>
+        {% if item4 %}
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Meal Time</th>
+            </thead>
+            {% for i in item4 %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+        {% endfor %}
+    
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;margin-left: 30px;">OOPS!!! Seems like You haven't added any data for this day</b>
+<br><br><br>
+        </table>
+        {% endif %}
+    </div>
+    </div>
+    <br><br><br>
+<!--FIVE-->
+<div class="part">
+
+    <div style="float: right;margin-right: 130px;">
+
+    
+    <br>
+    <b style="margin-left:900px">Calorie Consumed for the day:{{cal5}}</b>
+</div>
+    <div class="box">
+        <br>
+        
+        <b style="font-size: larger;margin-left: 25px;">{{d5}}</b>
+        <br>
+        {% if item5 %}
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Meal Time</th>
+            </thead>
+            {% for i in item5 %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+        {% endfor %}
+    
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;margin-left: 30px;">OOPS!!! Seems like You haven't added any data for this day</b>
+<br><br><br>
+        </table>
+        {% endif %}
+    </div>
+</div>
+    <br><br><br>
+    <!--SIX-->
+    <div class="part">
+
+        <div style="float: right;margin-right: 130px;">
+    
+        
+        <br>
+        <b style="margin-left:900px">Calorie Consumed for the day:{{cal6}}</b>
+    </div>
+    <div class="box">
+        <br>
+        
+        <b style="font-size: larger;margin-left: 25px;">{{d6}}</b>
+        <br>
+        {% if item6 %}
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Meal Time</th>
+            </thead>
+            {% for i in item6 %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+        {% endfor %}
+    
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;margin-left: 30px;">OOPS!!! Seems like You haven't added any data for this day</b>
+<br><br><br>
+        </table>
+        {% endif %}
+    </div>
+    </div>
+    <br><br><br>
+    <!--SEVEN-->
+    <div class="part">
+
+        <div style="float: right;margin-right: 130px;">
+    
+        
+        <br>
+        <b style="margin-left:900px">Calorie Consumed for the day:{{cal7}}</b>
+    </div>
+    <div class="box">
+        <br>
+        
+        <b style="font-size: larger;margin-left: 25px;">{{d7}}</b>
+        <br>
+        {% if item7 %}
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Calorie</th>
+                <th>Meal Time</th>
+            </thead>
+            {% for i in item7 %}
+
+    <tr>
+        <td>{{i.food}}</td>
+        <td>{{i.quantity}}</td>
+        <td>{{i.calorie}}</td>
+        <td style="text-transform: capitalize;">{{i.meal_time}}</td>
+        {% endfor %}
+    
+    </tr>
+   
+    
+</table>
+{% else %}
+<br><br>
+<b style="font-style: italic;margin-left: 30px;">OOPS!!! Seems like You haven't added any data for this day</b>
+<br><br><br>
+        </table>
+        {% endif %}
+    </div>
+    </div>
+    <br><br><br>
+</body>
+</html>

@@ -1,0 +1,121 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+   
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4. 1/js/bootstrap.min.js"></script>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+    <style>
+
+body {
+    background:#243545
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+    </style>
+</head>
+<body>
+    
+
+   
+
+
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                {% if logo %}
+                <img class="rounded-circle mt-5" width="150px" src="{% static 'images/female.jpg' %}"><br><br><span class="font-weight-bold">{{data.username}}</span><span> </span></div>
+                {% else %}
+                <img class="rounded-circle mt-5" width="150px" src="{% static 'images/male.jpg' %}"><br><br><span class="font-weight-bold">{{data.username}}</span><span> </span></div>
+                {% endif %}
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">First Name</label>
+                        <h3>{{data.first_name}}</h3>
+                        <br>
+                    </div>
+                    <div class="col-md-6"><label class="labels">Lastname</label>
+                    <h3>{{data.last_name}}</h3>
+                    <br>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">Email</label><h3>{{data.email}}</h3><br></div>
+                    <div class="col-md-12"><label class="labels">Age</label><h3>{{data1.age}}</h3><br></div>
+                    <div class="col-md-12"><label class="labels">Height in cm</label><h3>{{data1.height}}</h3><br></div>
+                    <div class="col-md-12"><label class="labels">Weight in kg</label><h3>{{data1.weight}}</h3><br></div>
+                    <div class="col-md-12"><label class="labels">Gender</label><h3>{{gender}}</h3><br></div>
+                    <div class="col-md-12"><label class="labels">Activity Routine</label><h3>{{activity}}</h3><br></div>
+                    <div class="col-md-12"><label class="labels">Calorie Needed Per Day</label><h3>{{data1.calorie_needed}}</h3><br></div>
+                    
+                </div>
+               
+                
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
