@@ -1,0 +1,578 @@
+FoodItem,calories,amount,unit,ingrediant,meal_time,recepie
+Bottle Gourd,11,100,gm,Bottle Gourd,Side Dish,"Peel and chop into cubes;
+Use in curries, stews, or as a base for soups."
+Ridge Gourd,13,100,gm,Ridge Gourd,Side Dish,"Peel and chop into rounds or cubes;
+Use in curries, stir-fries, or lentil-based dishes."
+Bitter Gourd,21,100,gm,Bitter Gourd,Side Dish,"Slice and remove seeds; marinate in salt, then wash;
+Sauté with spices or add to lentil soups."
+Capsicum,16,100,gm,Capsicum,Side Dish,"Slice or chop into strips;
+Use in stir-fries, salads, or stuffed preparations."
+Fenugreek Leaves (Cooked),34,100,gm,Fenugreek Leaves (Cooked),Side Dish,"Wash and cook fenugreek leaves;
+Sauté with spices or use in lentil-based dishes."
+Radish Leaves,26,100,gm,Radish Leaves,Side Dish,"Clean and chop radish leaves;
+Sauté or add to lentil soups."
+Spinach,24,100,gm,Spinach,Side Dish,"Wash and chop spinach;
+Use in salads, stir-fries, or as a base for soups."
+Pumpkin,23,100,gm,Pumpkin,Side Dish,"Peel and chop into cubes;
+Use in curries, stews, or as a side dish."
+Zucchini,20,100,gm,Zucchini,Side Dish,"Slice or chop zucchini;
+Use in stir-fries, pasta dishes, or grilled preparations."
+Drumsticks,67,100,gm,Drumsticks,Side Dish,"Peel and cut into pieces;
+Use in curries, soups, or stews."
+Tomato,21,100,gm,Tomato,Side Dish,"Chop into cubes or slices;
+Use in salads, sauces, or as a base for curries."
+Sprouts,44,100,gm,Sprouts,"Snack, Side Dish","Sprout seeds or legumes;
+Use in salads, stir-fries, or as a topping for various dishes."
+French Beans,24,100,gm,French Beans,Side Dish,"Trim the ends; chop into bite-sized pieces;
+Sauté with oil, garlic, and spices or blanch for salads."
+Kidney Beans,337,1,cup,Kidney Beans,Side Dish,"Soak and cook kidney beans until tender;
+Use in salads, stews, or as a protein source."
+Soya Beans,446,1,cup,Soya Beans,Side Dish,"Boil or steam soya beans until cooked;
+Add to stir-fries, salads, or use as a protein source."
+Beans,40,1,cup,Beans,Side Dish,"Trim and chop beans into desired lengths;
+Sauté, steam, or blanch for salads."
+Peas,118,1,cup,Peas,Side Dish,"Shell fresh peas or use frozen peas;
+Add to rice, curries, or salads."
+Lady’S Finger,150,1,cup,Lady’S Finger,Side Dish,"Trim ends; slice or cook whole;
+Sauté, fry, or add to curries."
+Cabbage,60,1,cup,Cabbage,Side Dish,"Shred or chop cabbage finely;
+Use in salads, stir-fries, or coleslaw."
+Cauliflower,150,1,cup,Cauliflower,Side Dish,"Break into florets; blanch, roast, or stir-fry;
+Use in curries, rice dishes, or as a side."
+Broccoli,40,1,cup,Broccoli,Side Dish,"Trim into florets; blanch, steam, or roast;
+Use in salads, stir-fries, or as a side."
+Brinjal,40,1,cup,Brinjal,Side Dish,"Slice or chop brinjal;
+Sauté, roast, or add to curries."
+Cottage Cheese,258,100,gm,Cottage Cheese,"Side Dish, Protein Source","Cut cottage cheese into cubes or slices;
+Use in salads, stir-fries, or as a protein source in various dishes."
+Fried Potato,200,1,cup,Fried Potato,"Snack, Side Dish","Cut potatoes into desired shapes;
+Deep-fry until golden and crispy; season with salt and spices."
+Mashed Potatoes,100,1,cup,Mashed Potatoes,Side Dish,"Boil and mash potatoes;
+Mix with butter, milk, and seasonings to achieve desired consistency."
+Sweet Potato,96,1,cup,Sweet Potato,Side Dish,"Peel and cut sweet potatoes;
+Roast, boil, or bake until tender; season as desired."
+Mushrooms,296,1,cup,Mushrooms,Side Dish,"Clean and slice mushrooms;
+Sauté in oil or butter with garlic, herbs, and spices."
+Mixed Veggies,80,1,cup,Mixed Veggies,Side Dish,"Combine a variety of vegetables such as carrots, peas, corn, and beans;
+Use in salads, stir-fries, or as a side dish."
+Vegetable Curry,130,1,cup,Vegetable Curry,"Side Dish, Main Course","Sauté onions, tomatoes, and spices;
+Add a mix of vegetables and cook until tender;
+Add curry sauce or coconut milk as desired."
+Small Guava,32,1,piece,Small Guava,Fruit,Fruit
+Small Orange,37,1,piece,Small Orange,Fruit,Fruit
+Small Pear,37,1,piece,Small Pear,Fruit,Fruit
+Small Mango,42,1,piece,Small Mango,Fruit,Fruit
+Small Apple,62,1,piece,Small Apple,Fruit,Fruit
+Small Peach,40,1,piece,Small Peach,Fruit,Fruit
+Sweet Lime,27,1,piece,Sweet Lime,Fruit,Fruit
+Banana,110,1,piece,Banana,Fruit,Fruit
+Watermelon,20,1,slices,Watermelon,Fruit,Fruit
+Litchis,53,1,slices,Litchis,Fruit,Fruit
+Melon,23,1,bowl,Melon,Fruit,Fruit
+Strawberries,25,1,bowl,Strawberries,Fruit,Fruit
+Pomegranate,55,1,bowl,Pomegranate,Fruit,Fruit
+Cherries,60,1,bowl,Cherries,Fruit,Fruit
+Grapes,60,1,bowl,Grapes,"Snack, Fruit",Fruit
+Bread,45,1,piece,bread,"Breakfast, Snack",store brought
+Small Poori,75,1,piece,"Wheat Flour, Water, Salt, Oil (for deep frying)",Snack,"Roll small portions of dough into rounds;
+Deep-fry until they puff up."
+Roti,100,1,piece,"Whole Wheat Flour, Water, Salt",Dinner,Roll dough into flat rounds; cook on a griddle until brown spots appear.
+Parantha,150,1,piece,"Whole Wheat Flour, Water, Salt, Ghee or Oil",Dinner,"Roll dough into a flat round; apply ghee or oil; fold and roll again;
+Cook on a griddle until both sides are golden brown."
+Aloo Parantha,170,1,piece,"Whole Wheat Flour, Potatoes, Water, Salt, Ghee or Oil",Dinner,"Mix mashed potatoes with spices; stuff into rolled dough;
+Cook on a griddle until both sides are golden brown."
+Pav,180,1,piece,"Flour, Yeast, Salt, Sugar, Water",Snack,bread
+Naan,262,1,piece,"All-Purpose Flour, Yogurt, Baking Powder, Baking Soda, Ghee, Milk",Dinner,"Knead and roll dough into an oval shape;
+Cook in a tandoor or on a griddle until puffed and browned."
+Butter Naan,310,1,piece,"All-Purpose Flour, Yogurt, Baking Powder, Baking Soda, Ghee, Milk, Butter",Dinner,"Knead and roll dough into an oval shape;
+Cook in a tandoor or on a griddle until puffed and browned; brush with butter before serving."
+Water,0,1,glass,Water,Drink,Water
+Green Tea,10,1,cup,"Green Tea Leaves, Hot Water",Drink,"Steep green tea leaves in hot water for a few minutes;
+Strain and serve plain or with honey and lemon."
+Black Tea,10,1,cup,"Black Tea Leaves, Hot Water",Drink,"Brew black tea leaves in hot water; steep for a few minutes;
+Optionally, add milk or sweeteners."
+Milk Tea,45,1,cup,"Tea Leaves, Milk, Sugar",Drink,"Brew tea leaves in hot water; add milk and sweeteners;
+Strain and serve as desired."
+Cappuccino,45,1,cup,"Espresso, Steamed Milk, Foam",Drink,"Brew a shot of espresso; froth milk;
+Combine espresso and frothed milk; top with foam."
+Plain Milk,60,1,cup,Milk,Drink,"Heat milk until warm; optionally, sweeten to taste."
+Milk With Added Flavours,120,1,cup,"Milk, Flavorings",Drink,"Add flavorings like vanilla, chocolate, or syrup to plain milk;
+Heat if desired or serve cold."
+Fruit Juice,120,1,cup,"Fresh Fruit Extracts or Juices, Water",Drink,"Extract juice from fresh fruits;
+Optionally, strain and serve over ice."
+Tender Coconut,15,1,cup,Fresh Coconut Water,Drink,Open a tender coconut; serve the refreshing water and soft flesh.
+Soup,75,1,bowl,"Broth, Vegetables, Spices","Soup,Breakfast","Cook vegetables or meat in broth; season to taste;
+Serve hot."
+Soda,10,1,bottle,"Carbonated Water, Flavorings",Drink,"Combine carbonated water with flavored syrup;
+Serve over ice for a fizzy drink."
+Cold Drink,90,1,bottle,"Carbonated Water, Sweeteners, Flavorings",Drink,Chilled non-alcoholic beverages in various flavors.
+Milkshake,200,1,bottle,"Milk, Ice Cream, Flavorings","Drink,Dessert","Blend milk with fruits, ice cream, or flavored syrups;
+Serve chilled."
+Beer,200,1,bottle,Fermented Beverage,Beverage,Chill beer; pour into a glass; serve cold.
+Alcohol,75,1,serving,Various depending on the type,Beverage,"Various alcoholic beverages, including spirits, wine, and cocktails."
+Papad,45,1,piece,Flattened and Sun-Dried Dough,Side Dish,"Roast papad over an open flame or in a microwave until it puffs up;
+Serve as a crispy accompaniment to meals;"
+Idli,100,1,piece,Steamed Rice and Lentil Cakes,Breakfast,"Ferment a batter of urad dal and rice; steam in idli molds;
+Serve hot with coconut chutney and sambar;"
+Plain Dosa,120,1,piece,"Fermented Rice and Lentil Batter, Oil",Breakfast,"Make a batter with rice and urad dal; spread thin on a hot griddle;
+Cook until crispy; serve with coconut chutney and sambar;"
+Masala Dosa,250,1,piece,"Fermented Rice and Lentil Batter, Potato Masala, Oil",Breakfast,"Prepare dosa batter; spread on a griddle;
+Add a spiced potato filling; fold and serve with chutney and sambar;"
+Vermicelli,333,100,gm,"Semolina, Water, Vegetables, Oil, Spices",Breakfast,"Boil vermicelli until tender; drain and set aside;
+Sauté with vegetables and spices for a quick and tasty dish;"
+Ragi,320,100,gm,"Ragi Flour, Water, Salt",Breakfast,"Mix ragi flour with water to form a thick batter;
+Cook as porridge or make ragi dosa;"
+Quinoa,328,100,gm,"Quinoa, Water, Salt",Breakfast,"Rinse quinoa; cook with water until the grains are fluffy;
+Use quinoa as a nutritious alternative to rice;"
+Tofu,76,100,gm,"Soybean Milk, Coagulant (Nigari or Lemon Juice)",Dinner,"Press tofu to remove excess water;
+Sauté, grill, or use in various dishes as a protein substitute;"
+Raita,20,1,serving,"Yogurt, Vegetables, Spices",Side Dish,"Mix yogurt with grated cucumber, mint, and spices;
+Serve chilled as a refreshing side dish;"
+Sugar,30,1,spoon,Sugar,Side Dish,"Use sugar as a sweetener in beverages, desserts, or baking;"
+Pickles,30,1,spoon,"Pickled Vegetables, Spices",Side Dish,"Preserve fruits or vegetables in a mixture of oil, spices, and salt;
+Serve pickles as a flavorful condiment;"
+Salad,100,1,plate,"Fresh Vegetables, Lettuce, Dressing",Side Dish,"Combine fresh vegetables, greens, and herbs;
+Toss with dressing and serve as a healthy side dish;
+
+
+
+
+"
+Vegetable Rice,200,1,plate,"Basmati Rice, Mixed Vegetables, Spices","Lunch, Dinner","Sauté vegetables in oil with spices;
+Mix with cooked rice until well combined."
+Boiled Rice,120,1,cup,Rice,"Lunch, Dinner","Rinse rice; cook with water and a pinch of salt until tender;
+Fluff with a fork before serving."
+Fried Rice,150,1,cup,"Cooked Rice, Vegetables, Soy Sauce, Oil, Spices","Lunch, Dinner","Sauté vegetables and protein (optional) in oil;
+Add cooked rice, soy sauce, and spices; stir-fry until well-mixed."
+Cereal Or Oats With Milk,150,1,cup,"Cereal or Oats, Milk",Breakfast,"Pour milk over cereal or oats;
+Add fruits, nuts, or sweeteners as desired."
+Sambar,150,1,cup,"Lentils, Vegetables, Tamarind, Sambar Powder, Spices","Lunch, Dinner","Boil lentils until soft;
+Sauté vegetables, tamarind, and spices; add to the lentils;
+Simmer until flavors meld."
+Curd,100,1,cup,"Milk, Yogurt Culture",Side Dish,"Beat yogurt until smooth;
+Optionally, add salt, sugar, or spices for flavor."
+Any Lentils Or Dhal,150,1,cup,"Lentils (such as Toor Dal), Water, Spices","Lunch, Dinner","Rinse lentils; cook with water, turmeric, and salt until soft;
+Sauté onions, tomatoes, and spices; add to the cooked lentils;
+Garnish with cilantro and serve."
+Coconut,409,100,gm,Coconut Meat,Side Dish,"Grate coconut or extract coconut milk;
+Use in curries, desserts, or as a garnish."
+Fried Nuts,450,1,cup,"Nuts, Oil, Spices",Snack,"Heat oil; fry nuts like cashews, almonds, and pistachios until golden;
+Sprinkle with salt or spices; serve as a crunchy snack."
+Peanut,520,500,gm,"Peanuts, Salt, Oil",Snack,"Roast peanuts until golden and crunchy;
+Remove skins; sprinkle with salt or spices."
+Flax Seed,534,500,gm,Flax Seeds,Snack,"Roast flax seeds in a dry pan;
+Sprinkle on salads, yogurt, or smoothies."
+Pistachio,539,100,gm,Pistachios,Snack,"Shell pistachios; roast or use in desserts, salads, or as a snack;
+Garnish dishes for added texture."
+Cashewnut,582,100,gm,Cashews,Snack,"Roast cashews until golden and crunchy;
+Use in curries, desserts, or as a snack."
+Almond,602,100,gm,Almonds,Snack,"Blanch almonds; use in desserts, milk, or as a snack;
+Chop and garnish dishes for a nutty flavor."
+Pakodas,175,50,gm,"Besan (Chickpea Flour), Vegetables, Spices",Snack,"Mix gram flour, spices, and water into a thick batter;
+Dip vegetables or paneer in the batter; deep-fry until golden."
+Vada,70,1,piece,"Urad Dal, Rice, Fenugreek Seeds, Spices",Snack,"Soak and grind urad dal; mix with spices;
+Shape into rounds; deep-fry until golden brown."
+Samosa,140,1,piece,"Potatoes, Peas, Spices, Dough",Snack,"Prepare a spiced potato filling;
+Wrap the filling in samosa dough; deep-fry until crispy."
+Sandwich,250,1,piece,"Bread, Vegetables, Cheese, Condiments","Snack, Lunch, Dinner","Layer bread with desired fillings like vegetables, cheese, or meat;
+Grill or press until the bread is toasted."
+Burger,250,1,piece,"Buns, Patty (beef, chicken, etc.), Cheese, Condiments",Dinner,"Form ground meat into patties; season;
+Grill or pan-cook until fully cooked;
+Assemble in a bun with desired toppings."
+Biscuit,30,1,piece,"Flour, Sugar, Butter, Baking Powder, Milk",Snack,"Mix flour, butter, sugar, and baking powder;
+Shape into rounds; bake until golden brown."
+Chips,120,1,packet,"Potatoes, Oil, Salt, Spices",Snack,"Slice potatoes thinly; deep-fry until crispy;
+Season with salt or spices."
+French Fries,427,1,serving,"Potatoes, Oil, Salt","Snack, Side Dish","Cut potatoes into sticks; double-fry until golden and crispy;
+Season with salt or desired spices."
+Bhel Or Pani Puri,150,1,serving,"Puffed Rice, Sev, Chutneys, Potatoes, Onions","Snack, Dinner","Mix puffed rice, sev, chopped vegetables, and chutneys for bhel;
+Fill puris with a mixture of tamarind water, spices, and potatoes for pani puri."
+Pav Bhaji,610,1,plate,"Mixed Vegetables, Potatoes, Pav Bread, Butter, Spices","Snack, Dinner","Cook mixed vegetables until soft; mash;
+Sauté onions, tomatoes, and spices; mix with mashed vegetables;
+Serve hot with buttered pav; garnish with chopped coriander;"
+Indian Sweets,150,1,piece,"Various Indian sweets have different ingredients, such as milk, sugar, ghee, flour, etc.",Dessert,"Prepare a sugar syrup;
+Mix ingredients like flour, ghee, and sugar;
+Shape into desired forms; immerse in sugar syrup;"
+Pudding,200,1,cup,"Milk, Sugar, Eggs, Vanilla Extract, Cornstarch",Dessert,"Heat milk, sugar, and flavoring;
+Mix a slurry of cornstarch with milk;
+Pour slurry into the hot milk mixture; stir until thickened;"
+Jam,30,1,spoon,"Fruits, Sugar, Pectin",Spread/Condiment,"Cook fruits with sugar until soft;
+Blend until smooth; simmer until it reaches jam consistency;
+Store in sterilized jars;"
+Falooda,300,1,glass,"Vermicelli, Rose Syrup, Ice Cream, Nuts, Basil Seeds","Drink, Dessert","Soak falooda seeds; cook falooda noodles;
+Assemble with rose syrup, milk, and ice cream;
+Garnish with chopped nuts;"
+Cream,105,50,gm,Heavy Cream,Dairy Product,"Skim off the cream from milk; chill;
+Whip until stiff peaks form; store in a cool place;"
+Cheese,155,50,gm,"Milk, Bacterial Culture, Rennet",Dairy Product,"Heat milk; add an acid like lemon juice or vinegar;
+Strain curds; press to form cheese; refrigerate;"
+Butter,45,1,tablespoon,"Cream, Bacterial Culture, Rennet",Dairy Product,"Beat cream until it separates into butter and buttermilk;
+Rinse and knead butter; store in the fridge;"
+Ghee,45,1,tablespoon,Clarified Butter,Cooking Fat,"Clarify butter by melting and separating the solids;
+Strain and store in a jar;"
+Whole Milk,150,1,cup,Milk,Dairy Product,"Heat milk until it reaches a near-boil;
+Cool and use for various recipes;"
+Egg,75,1,piece,Eggs,Protein Source,"Crack egg; separate whites and yolks if needed;
+Use in baking, cooking, or as desired;"
+Boiled Egg,80,1,piece,"Eggs, Water, Salt, Pepper","Breakfast, Snack, Lunch, Dinner","Place eggs in boiling water; cook for desired doneness;
+Peel and season as preferred; serve."
+Scrambled Egg,80,1,piece,"Eggs, Butter, Salt, Pepper","Breakfast, Snack, Lunch, Dinner","Beat eggs with salt and pepper;
+Cook in a pan with butter, stirring until soft curds form;
+Garnish with chives or herbs if desired;"
+Fried Egg,110,1,piece,"Eggs, Butter, Salt, Pepper","Breakfast, Snack, Lunch, Dinner","Heat oil or butter in a pan;
+Crack eggs into the pan; cook until the edges are crispy;
+Flip and cook until the yolk reaches the desired doneness;"
+Omelette,120,1,piece,"Eggs, Salt, Pepper, Butter, Milk","Breakfast, Snack, Lunch, Dinner","Whisk eggs with salt and pepper;
+Pour into a hot, greased pan; add fillings of choice;
+Fold and cook until the omelette is set;"
+Meat,450,1,plate,"Various meats (beef, pork, lamb, etc.), Salt, Pepper, Spices","Lunch, Dinner","Marinate meat with spices;
+Grill, roast, or cook until fully done;
+Rest before slicing for optimal juiciness;"
+Mutton Biryani,225,1,cup,"Basmati Rice, Mutton, Yogurt, Onions, Tomatoes, Ghee, Biryani Masala","Lunch, Dinner","Marinate mutton with yogurt and spices;
+Layer partially cooked basmati rice and mutton;
+Cook on low heat until the rice is fully cooked and aromatic;"
+Fried Chicken,200,1,serving,"Chicken, Flour, Buttermilk, Salt, Pepper, Spices","Lunch, Dinner","Marinate chicken with buttermilk and spices;
+Dredge in seasoned flour and deep-fry until golden and crispy;
+Drain on paper towels;"
+Chicken Curry,225,1,serving,"Chicken, Onions, Tomatoes, Ginger, Garlic, Garam Masala","Lunch, Dinner","Sauté onions, tomatoes, and spices;
+Add chicken pieces and cook until fully done;
+Garnish with cilantro before serving;"
+Tandoori Chicken,260,1,serving,"Chicken, Yogurt, Spices, Marinade","Lunch, Dinner","Marinate chicken in yogurt, spices, and herbs;
+Grill or roast until charred and fully cooked;
+Serve with lemon wedges;"
+Butter Chicken,290,1,serving,"Chicken, Butter, Cream, Tomatoes, Spices","Lunch, Dinner","Sauté chicken until browned; set aside;
+Make a creamy tomato-based sauce;
+Simmer chicken in the sauce until fully cooked;"
+Chicken Tikka Masala,457,1,serving,"Chicken, Yogurt, Tomatoes, Onions, Garam Masala, Butter, Cream","Lunch, Dinner","Grill or roast marinated chicken until charred;
+Simmer in a spiced tomato and cream sauce until flavors meld;
+Garnish with fresh coriander;"
+Fried Fish,140,1,gm,"Fish, Flour, Salt, Pepper, Oil",Dinner,"Coat fish fillets with seasoned flour or batter;
+Deep-fry until golden and crispy;
+Serve with tartar sauce or lemon wedges;"
+Salmon,172,100,gm,"Salmon, Lemon, Butter, Garlic, Herbs",Dinner,"Season salmon fillets with herbs and spices;
+Grill, bake, or pan-sear until the salmon is flaky and cooked through;
+Serve with a squeeze of lemon."
+Pomfret,123,100,gm,"Pomfret (or any white fish), Spices, Oil",Dinner,"Clean and marinate pomfret with spices;
+Grill or fry until the fish is cooked and golden;
+Garnish with fresh coriander before serving;"
+Squid,80,100,gm,"Squid, Garlic, Ginger, Soy Sauce, Oil",Dinner,"Clean and slice squid into rings;
+Sauté with garlic, chili, and spices until tender;
+Finish with a squeeze of lemon juice;"
+Crab,81,100,gm,"Crab, Spices, Garlic, Ginger, Oil",Dinner,"Clean crab; break into pieces;
+Cook in a spicy tomato-based gravy until the crab is done;
+Garnish with chopped cilantro before serving;"
+Prawn,65,100,gm,"Prawns, Spices",Dinner,"Clean and devein prawns;
+Sauté with spices until prawns turn pink and opaque;
+Sprinkle with fresh lemon juice before serving;"
+Cooked Chicken,200,100,gm,"Cooked Chicken, Spices",Dinner,"Marinate chicken with spices;
+Roast, grill, or cook until chicken is fully cooked;
+Rest before slicing for enhanced flavor;"
+Cooked Pork,230,100,gm,"Cooked Pork, Spices",Dinner,"Marinate pork with spices;
+Roast, grill, or cook until pork is fully cooked;
+Let it rest before slicing;"
+Basmati Rice,100,100,gm,"Basmati Rice, Water","Side Dish, Lunch, Dinner","Rinse rice; cook with water and a pinch of salt until fluffy;
+Fluff the rice with a fork;
+Optionally, add a drizzle of ghee for extra flavor;"
+Dal,100,100,gm,"Lentils, Water, Spices","Lunch, Dinner","Boil lentils (dal) until soft;
+Sauté onions, tomatoes, and spices; add boiled lentils;
+Simmer until the flavors meld;"
+Chana Masala,120,1,cup,"Chickpeas, Onions, Tomatoes, Spices","Lunch, Dinner","Boil chickpeas until tender;
+Sauté onions, tomatoes, and spices; add boiled chickpeas;
+Cook until the masala coats the chickpeas evenly;"
+Aloo Gobi,80,1,cup,"Potatoes, Cauliflower, Onions, Tomatoes, Spices",Dinner,"Sauté potatoes and cauliflower with spices;
+Cook until the vegetables are tender yet slightly crispy;
+Garnish with chopped coriander and a dash of lemon juice;"
+Vegetable Biryani,150,100,gm,"Basmati Rice, Mixed Vegetables (Carrots, Beans, Peas), Spices","Lunch, Dinner","Sauté mixed vegetables with biryani spices;
+Layer the vegetables and partially cooked basmati rice;
+Cook on low heat until the rice is fully cooked and aromatic."
+Palak Paneer,120,1,cup,"Spinach, Cottage Cheese, Onions, Tomatoes, Spices","Lunch, Dinner","Sauté finely chopped spinach and paneer cubes in a pan with spices;
+Cook until the spinach wilts and blends with the paneer;
+Garnish with cream or yogurt before serving;"
+Baingan Bharta,60,1,cup,"Eggplant, Onions, Tomatoes, Spices","Lunch, Dinner","Roast whole eggplant until the skin chars;
+Peel and mash the roasted eggplant with spices, tomatoes, and onions;
+Temper with mustard seeds and garnish with fresh coriander"
+Rajma,120,1,cup,"Red Kidney Beans, Onions, Tomatoes, Ginger, Garlic, Garam Masala","Lunch,Dinner","Soak kidney beans overnight; boil until tender;
+Sauté onions, tomatoes, and spices in a pan;
+Add boiled kidney beans and simmer until flavors meld"
+Masoor Dal,90,1,cup,"Red Lentils, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,"Boil red lentils until soft;
+Sauté onions, tomatoes, and spices; add boiled lentils;
+Simmer until the dal reaches a smooth consistency;"
+Paneer Tikka,150,1,cup,"Cottage Cheese, Yogurt, Spices, Bell Peppers, Onions",Dinner,"Marinate paneer cubes in a mixture of yogurt, spices, and lemon juice;
+Skewer the marinated paneer and grill until charred;
+Serve hot with mint chutney"
+Vegetable Korma,120,1,cup,"Mixed Vegetables (Carrots, Potatoes, Peas), Onions, Tomatoes, Coconut Milk, Garam Masala",Dinner,"Sauté mixed vegetables in oil until slightly tender;
+Add coconut milk, spices, and simmer until the vegetables are cooked;
+Garnish with chopped coriander and serve"
+Bhindi Masala,40,1,cup,"Okra, Onions, Tomatoes, Spices",Dinner,"Sauté thinly sliced okra in oil until it turns crispy;
+Add spices, tomatoes, and onions; cook until okra is well-coated;"
+Methi Thepla,100,1,piece,"Whole Wheat Flour, Fenugreek Leaves, Yogurt, Spices",Breakfast,"Combine fenugreek leaves with whole wheat flour, spices, and water;
+Knead into a soft dough; roll into flatbreads and cook on a griddle"
+Pesarattu,50,1,piece,"Green Gram, Rice, Ginger, Green Chilies",Breakfast,"Soak green gram and rice; grind into a smooth batter;
+Make thin pancakes on a griddle; serve with chutney;"
+Veg Pulao,120,100,gm,"Basmati Rice, Mixed Vegetables (Carrots, Beans, Peas), Spices","Lunch, Dinner","Sauté basmati rice with spices, mixed vegetables, and water;
+Cook until the rice is fluffy and the vegetables are tender;
+Garnish with fried onions and fresh coriander;"
+Dosa,120,1,piece,"Fermented Rice and Lentil Batter, Potatoes, Onions, Spices",Breakfast,"Ferment rice and urad dal batter overnight;
+Pour the batter onto a hot griddle to make thin, crispy dosas;
+Serve with coconut chutney and sambar;"
+Upma,100,1,cup,"Semolina, Water, Onions, Mustard Seeds, Urad Dal, Curry Leaves, Green Chilies",Breakfast,"Sauté semolina with mustard seeds, urad dal, onions, and spices; add water; cook until fluffy for upma."
+Masala Chai,50,1,cup,"Tea Leaves, Milk, Water, Sugar, Cardamom, Ginger",Drink,"Brew tea with spices, milk, and sugar; strain; serve hot for masala chai."
+Lassi,150,1,cup,"Yogurt, Water, Sugar, Cardamom",Drink,"Blend yogurt, water, and sugar; chill; serve cold for lassi."
+Kheer,120,1,piece,"Rice, Milk, Sugar, Saffron, Cardamom, Almonds, Cashews",Dessert,"Simmer milk, rice, sugar, and cardamom; cook until thick for kheer."
+Gulab Jamun,150,1,piece,"Khoya, Paneer, Sugar, Ghee, Cardamom, Saffron",Dessert,"Make dough with khoya, milk powder, and flour; fry; soak in sugar syrup for gulab jamun."
+Jalebi,150,1,piece,"All-Purpose Flour, Sugar Syrup, Rose Water",Dessert,Ferment flour and yogurt batter; deep-fry spirals; soak in saffron-infused sugar syrup for jalebi.
+Pani Puri,100,1,plate,"All-Purpose Flour, Yogurt, Ghee",Snack,"Mix boiled potatoes, sprouts, tamarind water, and spices; fill puris for pani puri."
+Dahi Puri,120,1,plate,"Puris, Potatoes, Chickpeas, Tamarind Water, Chaat Masala",Snack,"Fill puris with yogurt, tamarind chutney, and spices for dahi puri."
+Misal Pav,120,1,cup,"Puris, Yogurt, Potatoes, Tamarind Chutney, Sev, Chaat Masala","Breakfast, Lunch","Combine sprouts, spices, and farsan; serve with pav for misal pav."
+Vada Pav,150,1,piece,"Sprouted Lentils, Mixed Vegetables, Spices",Snack,Insert fried potato patty in pav; add chutneys and spices for vada pav.
+Dhokla,80,1,piece,"Pav Bread, Batata Vada, Chutneys","Breakfast, Snack",Ferment batter with rice and urad dal; steam; temper with mustard seeds and curry leaves for dhokla.
+Rasgulla,80,1,piece,"Cottage Cheese, Sugar Syrup, Rose Water",Dessert,"Boil milk and curdle it to form chhena;
+Drain excess water from chhena and knead it into a smooth dough;
+Shape the dough into small balls;
+Prepare sugar syrup by dissolving sugar in water;
+Simmer the chhena balls in the sugar syrup until they double in size."
+Aloo Paratha,200,1,piece,"Whole Wheat Flour, Ghee, Potatoes, Spices","Breakfast, Lunch","Boil and mash potatoes; add spices and mix well;
+Prepare wheat dough with flour, water, and a pinch of salt;
+Take a portion of the dough, stuff it with spiced mashed potatoes, and roll it into a flatbread;
+Cook the stuffed flatbread on a griddle until both sides are golden brown."
+Tandoori Roti,150,1,piece,"Whole Wheat Flour, Yogurt, Ghee",Dinner,"Combine whole wheat flour, water, and salt to form a soft dough;
+Divide the dough into rounds and roll them out;
+Cook the rolled dough on an open flame until it puffs up and gets a charred texture."
+Gajar Halwa,120,1,cup,"Carrots, Milk, Sugar, Ghee, Cardamom",Dessert,"Grate carrots and cook them in ghee until they soften;
+Add milk, sugar, and cardamom to the carrots;
+Cook the mixture until it thickens and attains a halwa consistency."
+Papdi Chaat,120,1,plate,"Papdis, Chickpeas, Potatoes, Yogurt, Tamarind Chutney",Snack,"Prepare crisp fried dough wafers (papdi);
+Boil and chop potatoes; mix with spices;
+Arrange papdi on a plate; top with boiled potatoes, yogurt, chutneys, and spices."
+Malai Kofta,120,1,cup,"Cottage Cheese, Onion, Tomato, Cream, Cashews, Garam Masala",Dinner,"Make kofta by mixing paneer, mashed potatoes, and spices;
+Shape the mixture into balls and fry until golden brown;
+Prepare a creamy tomato-based curry;
+Cook the kofta in the curry until they absorb the flavors."
+Aloo Tikki,80,1,piece,"Potatoes, Green Peas, Spices",Snack,"Boil and mash potatoes; add spices and mix;
+Shape the mixture into patties;
+Shallow fry the patties until they are golden brown on both sides."
+Chicken Biryani,150,100,gm,"Basmati Rice, Chicken, Onions, Tomatoes, Ghee, Biryani Masala","Lunch, Dinner","Marinate chicken with spices and yogurt;
+Partially cook basmati rice;
+Layer marinated chicken and partially cooked rice;
+Slow-cook until both the chicken and rice are fully cooked."
+Fish Curry,150,1,cup,"Fish, Coconut Milk, Onions, Tomatoes, Ginger, Garlic, Garam Masala","Lunch, Dinner","Prepare a spice blend with tomatoes, onions, and coconut milk;
+Marinate fish in the spice blend;
+Cook the marinated fish until it's tender and flavorful."
+Rogan Josh,120,1,cup,"Lamb, Yogurt, Tomatoes, Onions, Kashmiri Red Chili Powder, Ginger, Garlic, Garam Masala",Dinner,"Slow-cook tender meat in a rich tomato-based curry;
+Infuse the curry with aromatic spices until the meat is flavorful."
+Palak Chicken,120,1,cup,"Chicken, Spinach, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,"Cook chicken with a puree of spinach and spices until the chicken is done;
+Simmer until the curry reaches the desired consistency."
+Keema Naan,150,1,piece,"Minced Meat, All-Purpose Flour, Yogurt, Baking Powder, Baking Soda, Ghee","Lunch, Dinner","Combine flour, yeast, yogurt, and spices; form a soft dough; rest the dough, then divide into balls; flatten a ball, add spiced minced meat, seal, and roll it out; cook in a preheated tandoor or oven until golden and puffed."
+Chicken Korma,120,1,cup,"Chicken, Cashews, Yogurt, Onion, Tomato, Cream, Ghee, Ginger, Garlic",Dinner,"Marinate chicken in yogurt, cashew paste, and aromatic spices; sauté sliced onions until caramelized; add marinated chicken; cook until the chicken is browned; pour in coconut milk; simmer until the chicken is tender and the sauce thickens."
+Chicken Saag,120,1,cup,"Chicken, Coconut Milk, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,"Sauté chopped onions, ginger, and garlic until golden; add chicken pieces and brown them; blend spinach and mustard greens into a puree; mix the puree into the chicken; simmer until well combined; finish with cream."
+Chicken Do Pyaza,120,1,cup,"Basmati Rice, Lamb, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,"Sauté sliced onions until golden brown; brown chicken; add spices, tomatoes, and yogurt mixture; cook until chicken is tender; garnish and serve."
+Chicken Vindaloo,120,1,cup,"Chicken, Onions, Tomatoes, Ghee, Ginger, Garlic, Garam Masala",Dinner,"Marinate chicken in a mixture of vinegar, red chilies, and spices; sauté chopped onions, add marinated chicken, and cook until browned; simmer until the chicken is tender and the sauce is thick."
+Hyderabadi Biryani,150,100,gm,"Chicken, Potatoes, Vinegar, Red Chili Powder, Ginger, Garlic, Garam Masala","Lunch, Dinner","Marinate meat; partially cook basmati rice with whole spices; drain; layer marinated meat and partially cooked rice in a heavy-bottomed pot; garnish with fried onions, mint, and coriander; seal the pot and cook on low heat until meat and rice are fully cooked."
+Bhuna Gosht,120,1,cup,"Basmati Rice, Chicken, Yogurt, Onions, Tomatoes, Saffron, Ghee, Biryani Masala",Dinner,"Sauté chopped onions, tomatoes, and spices until thickened; add meat and brown it well in the spice mixture; slow-cook until the meat becomes tender and absorbs the flavors; garnish with fresh coriander before serving."
+Chicken Malai Tikka,150,1,cup,"Lamb, Onions, Tomatoes, Ginger, Garlic, Garam Masala, Coriander Powder",Dinner,"Marinate chicken in cream, yogurt, and spices; skewer and grill until charred; baste with melted butter or cream for added richness; serve hot with mint chutney."
+Nihari,120,1,cup,"Chicken, Cream, Yogurt, Ginger, Garlic, Cashews, Garam Masala",Dinner,"Slow-cook meat with spices, ginger, and garlic until it becomes tender; strain the broth and separate the meat; garnish with fried onions, ginger, and fresh coriander; serve with naan or steamed rice."
+Chicken Methi,120,1,cup,"Chicken, Methi (Fenugreek) Leaves, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,Sauté chopped onions until golden; add chicken pieces and cook until browned; stir in fresh methi (fenugreek) leaves and cook until chicken is done; adjust seasoning and serve hot.
+Egg Curry,120,1,cup,"Eggs, Onion, Tomato, Ginger, Garlic, Garam Masala",Dinner,"Sauté chopped onions, tomatoes, and spices until a thick gravy forms; halve or quarter hard-boiled eggs and add to the gravy; simmer until eggs absorb the flavors of the curry; garnish with chopped cilantro and serve hot."
+Anda Bhurji,120,1,cup,"Eggs, Onion, Tomato, Green Chilies, Ginger, Garlic, Garam Masala","Breakfast, Lunch, Dinner","Heat oil; sauté chopped onions, tomatoes, and green chilies until soft; add spices, turmeric, and chopped tomatoes; cook until tomatoes soften; beat eggs and pour into the mixture, stirring continuously until eggs are scrambled and cooked; garnish with fresh coriander leaves and serve."
+Egg Fried Rice,120,100,gm,"Rice, Eggs, Vegetables, Soy Sauce, Ginger, Garlic, Green Onions","Lunch, Dinner","Cook basmati rice until 70-80% done; cool and set aside; heat oil in a wok; sauté chopped vegetables (carrots, peas, bell peppers); add cooked rice to the vegetables; stir-fry; push the rice to the side; scramble eggs in the empty space; combine eggs with rice, add soy sauce, and toss until well-mixed; garnish with chopped green onions and serve hot."
+Keema Biryani,150,100,gm,"Minced Meat, Basmati Rice, Yogurt, Onions, Tomatoes, Ghee, Biryani Masala","Lunch, Dinner","Cook minced meat with biryani rice, spices, and herbs for keema biryani."
+Hyderabadi Haleem,150,1,cup,"Wheat, Meat (Lamb or Chicken), Lentils, Ghee, Spices",Dinner,"Slow-cook a mix of lentils, wheat, and barley with meat and spices for Hyderabadi haleem."
+Chicken Reshmi Kebab,150,1,cup,"Chicken, Lentils, Wheat, Ghee, Spices",Dinner,"Marinate chicken in a mixture of cream, yogurt, and spices; grill for chicken reshmi kebab."
+Tawa Pulao,150,1,cup,"Chicken, Basmati Rice, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,Sauté cooked rice with vegetables and spices on a griddle for tawa pulao.
+Chicken Chettinad,120,1,cup,"Chicken, Coconut Milk, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,Prepare a spicy and flavorful chicken curry with Chettinad spices for chicken Chettinad.
+Amritsari Fish,120,1,cup,"Fish, Gram Flour, Spices, Oil",Dinner,Marinate fish in a spiced gram flour batter; deep-fry for Amritsari fish.
+Chicken Sukka,120,1,cup,"Chicken, Onions, Tomatoes, Coconut, Spices",Dinner,Cook chicken with spices and coconut for chicken sukka.
+Nargisi Kofta,120,1,cup,"Minced Meat, Eggs, Onion, Tomato, Ginger, Garlic, Garam Masala",Dinner,Prepare deep-fried meatballs stuffed with boiled eggs for nargisi kofta.
+Chicken Patiala,120,1,cup,"Chicken, Onions, Tomatoes, Cream, Ginger, Garlic, Garam Masala",Dinner,Cook chicken in a rich tomato-based curry for chicken Patiala.
+Malai Kulfi,120,1,piece,"Milk, Cream, Sugar, Cardamom, Pistachios, Almonds",Dessert,"Make a creamy frozen dessert with milk, nuts, and saffron for malai kulfi."
+Kadi Pakora,50,1,cup,"Yogurt, Gram Flour, Pakoras, Onions, Spices",Dinner,Cook yogurt-based curry with pakoras (gram flour fritters) for kadi pakora.
+Chana Saag,150,1,cup,"Chickpeas, Spinach, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,Cook chickpeas and spinach in a spiced gravy for chana saag.
+Aloo Jeera,150,1,cup,"Potatoes, Cumin Seeds, Green Chilies, Coriander Leaves, Spices",Dinner,Sauté potatoes with cumin seeds for aloo jeera.
+Lauki Kofta,250,1,cup,"Bottle Gourd, Gram Flour, Onions, Tomatoes, Spices",Dinner,Make dumplings with bottle gourd in a spiced curry for lauki kofta.
+Mushroom Masala,150,1,cup,"Mushrooms, Onions, Tomatoes, Ginger, Garlic, Garam Masala",Dinner,Sauté mushrooms in a spiced onion-tomato gravy for mushroom masala.
+Coconut Chutney,36,1,tablespoon,"Coconut, Green Chilies, Urad Dal, Chana Dal, Tamarind, Salt, Oil, Mustard Seeds, Curry Leaves",Side Dish,Blend coconut with green chilies and herbs for coconut chutney.
+Avial,150,1,cup,"Mixed Vegetables (Carrot, Beans, Pumpkin, Drumstick), Coconut, Yogurt, Green Chilies, Cumin Seeds, Curry Leaves, Coconut Oil",Side Dish,Cook mixed vegetables in a coconut and yogurt-based gravy for avial.
+Dahi Baingan,100,1,cup,"Eggplant, Yogurt, Mustard Seeds, Cumin Seeds, Asafoetida, Turmeric, Red Chili Powder, Coriander Leaves",Dinner,Prepare eggplant in a yogurt-based curry for dahi baingan.
+Shahi Paneer,300,1,cup,"Paneer, Cashews, Onion, Tomato, Cream, Ghee, Ginger, Garlic, Green Chilies",Dinner,Make a rich and creamy paneer curry with cashew nuts for shahi paneer.
+Papad Ki Sabzi,150,1,cup,"Papad, Mustard Seeds, Asafoetida, Turmeric, Red Chili Powder, Garam Masala, Coriander Leaves",Dinner,Slice papads into pieces and cook in a spiced yogurt-based curry for papad ki sabzi.
+Methi Malai Murg,200,1,cup,"Chicken, Fresh Cream, Fenugreek Leaves, Cashews, Onion, Ginger, Garlic, Green Chilies",Dinner,Prepare a creamy chicken curry with fenugreek leaves for methi malai murg.
+Lauki Chana Dal,150,1,glass,"Bottle Gourd, Chana Dal, Onion, Tomato, Ginger, Garlic, Turmeric, Cumin Seeds",Dinner,Cook bottle gourd with split chickpeas in a spiced gravy for lauki chana dal.
+Mango Lassi,200,1,piece,"Mango, Yogurt, Sugar, Ice, Cardamom","Drink, Dessert","Blend ripe mangoes with yogurt, sugar, and cardamom for mango lassi."
+Mysore Pak,100,1,piece,"Besan (Gram Flour), Ghee, Sugar, Cardamom",Dessert,"Make a rich and sweet South Indian dessert using gram flour, ghee, and sugar for mysore pak."
+Kesar Peda,80,1,piece,"Khoya, Sugar, Saffron, Cardamom",Dessert,"Combine milk solids, saffron, and sugar for kesar peda."
+Rajbhog,200,1,piece,"Cottage Cheese, Sugar Syrup, Saffron, Pistachios, Cashews",Dessert,Prepare a rich and decadent dessert with cottage cheese dumplings in sugar syrup for rajbhog.
+Besan Ladoo,100,1,piece,"Gram Flour, Sugar, Ghee, Cardamom",Dessert,"Mix gram flour, ghee, and sugar to make sweet round balls for besan ladoo."
+Kaju Katli,50,1,piece,"Cashews, Sugar, Ghee",Dessert,Make cashew nut fudge squares with sugar and ghee for kaju katli.
+Imarti,150,1,piece,"Urad Dal, Sugar, Saffron, Cardamom",Dessert,"Fry spirals of fermented urad dal batter, soak in saffron-infused sugar syrup for imarti."
+Gajar Ka Halwa,250,1,cup,"Carrots, Milk, Sugar, Ghee, Cardamom",Dessert,"Grate carrots and cook with milk, sugar, and ghee for gajar ka halwa."
+Kesari,200,1,cup,"Semolina, Ghee, Sugar, Saffron, Cardamom",Dessert,"Cook semolina with ghee, sugar, and saffron for kesari."
+Thandai,150,1,glass,"Milk, Sugar, Almonds, Saffron, Cardamom",Drink,"Blend almonds, fennel seeds, and cardamom-infused milk for thandai."
+Poha,150,1,cup,"Flattened Rice, Mustard Seeds, Cumin Seeds, Peanuts, Curry Leaves, Green Chilies",Breakfast,"Cook flattened rice with spices, peas, and peanuts for poha"
+Chai Latte,150,1,cup,"Tea Leaves, Milk, Sugar, Cardamom",Drink,"Boil 1 cup of water;
+
+Add 1 black tea bag or 1 tablespoon loose tea leaves; simmer for about 5 minutes;
+
+Reduce heat to low;
+
+Add 1/2 tsp ground cinnamon, 1/4 tsp ground ginger, 1/4 tsp ground cardamom, a pinch of ground cloves, and a pinch of black pepper; stir well;
+
+Pour in 1 cup of milk;
+
+Stir and simmer until heated through;
+
+Add 1-2 tablespoons sugar, adjusting to taste;
+
+Strain the chai to remove tea leaves or bag;
+
+Pour into a mug and enjoy!
+"
+Rajasthani Dal Baati,300,1,serving,"Wheat Flour, Ghee, Baking Powder",Dinner,Make a traditional Rajasthani dish with wheat balls (baati) and lentil curry for dal baati.
+Litti Chokha,200,1,serving,"Wheat Flour, Gram Flour, Mustard Oil, Baking Soda",Dinner,Bake dough balls filled with roasted gram flour and spices; serve with mashed vegetables for litti chokha.
+Jalebi Rabri,300,1,serving,"Wheat Flour, Gram Flour, Mustard Oil, Baking Soda",Dessert,Fry spirals of fermented wheat flour batter and soak them in saffron-infused sugar syrup; serve with condensed milk for jalebi rabri.
+Kalaadi,150,1,piece,"Fermented Lentil and Rice Batter, Sugar Syrup",Snack,"Enjoy Kalaadi, a traditional cheese from Jammu & Kashmir, often pan-fried or grilled."
+Patra,100,1,roll,"Gram Flour, Yogurt, Turmeric, Mustard Seeds, Curry Leaves",Snack,"Make colocasia leaves rolled with spiced gram flour paste, steamed, and then sliced for patra."
+Fafda,50,1,piece,"Chickpea Flour, Yogurt, Ginger, Green Chilies, Coriander Leaves",Snack,"Fry gram flour sticks for fafda, a popular Gujarati snack."
+Makki Ki Roti Sarson Saag,300,1,serving,"Cornmeal, Fenugreek Seeds, Buttermilk",Dinner,Prepare unleavened flatbreads made from cornmeal (makki) and served with mustard greens (sarson saag).
+Khar,100,1,cup,"Chickpea Flour, Curd, Ginger, Green Chilies, Coriander Leaves",Dinner,"Prepare a traditional Assamese dish with raw papaya, pulses, and alkaline water for khar."
+Undhiyu,250,1,cup,"Millet Flour, Water, Salt",Dinner,"Make a mixed vegetable curry, often with brinjal, green beans, and potatoes for undhiyu."
+Til Chikki,50,1,piece,"Potatoes, Spices, Green Chutney, Tamarind Chutney",Dinner,Mix sesame seeds and jaggery to make til chikki.
+Dal Dhokli,200,1,serving,"Chickpea Flour, Yogurt, Turmeric, Mustard Seeds, Sesame Seeds, Asafoetida",Dinner,"Combine wheat flour and spices, cut into diamond shapes, and cook in lentil soup for dal dhokli."
+Khandvi,50,1,roll,"Cottage Cheese, Sugar, Cardamom",Snack,"Steam gram flour batter, roll into thin layers, and cut into rolls for khandvi."
+Thepla,150,1,piece,"Coconut, Cilantro, Mustard Seeds, Green Chilies, Tamarind",Snack,"Make flatbreads with whole wheat flour, fenugreek, and spices for thepla."
+Bhakri,100,1,piece,"Edible Gum, Wheat Flour, Ghee, Sugar",Dinner,Prepare unleavened bread made from millet or sorghum flour for bhakri.
+Dabeli,300,1,serving,"Paneer, Onions, Tomatoes, Green Chilies, Ginger, Garlic, Spices",Snack,"Stuff pav (bun) with spiced mashed potatoes, peanuts, and pomegranate seeds for dabeli."
+Khakra,50,1,piece,"Rice Flour, Black Gram Flour, Fenugreek Seeds",Snack,"Cook thin, crispy, unleavened bread made from gram flour for khakra."
+Ras Malai,150,1,piece,"Jaggery, Gram Flour, Wheat Flour",Dessert,Make a dessert of cottage cheese dumplings in sweetened milk for ras malai.
+Kothimbir Vadi,50,1,piece,"Gram Flour, Yogurt, Ginger, Green Chilies, Coriander Leaves",Snack,"Steam a mixture of gram flour, coriander, and spices, then slice and shallow-fry for kothimbir vadi."
+Gond Ke Ladoo,100,1,cup,"Lentils, Wheat Flour, Ginger, Garlic, Green Chilies",Dessert,"Combine edible gum, whole wheat flour, ghee, and jaggery for gond ke ladoo."
+Paneer Bhurji,200,1,cup,"Semolina, Yogurt, Baking Soda",Dinner,Scramble paneer (Indian cottage cheese) with spices for paneer bhurji.
+Attu,80,1,piece,"Rice, Urad Dal, Chana Dal, Fenugreek Seeds, Water",Breakfast,Prepare a savory dosa-like dish made from fermented rice and urad dal for attu.
+Puran Poli,150,1,piece,"Chana Dal, Jaggery, Cardamom, Maida (All-Purpose Flour), Ghee",Dessert,Make sweet flatbreads filled with sweetened lentil paste for puran poli.
+Sev Tameta Nu Shaak,100,1,piece,"Sev, Tomatoes, Garlic, Mustard Seeds, Cumin Seeds, Asafoetida",Dinner,Cook a spicy tomato and gram flour-based curry for sev tameta nu shaak.
+Dhansak,200,1,cup,"Lentils, Mixed Vegetables, Tamarind, Coconut, Spices",Dinner,"Prepare a Parsi dish with meat, lentils, and vegetables for dhansak."
+Khaman Dhokla,50,1,piece,"Lentil Flour, Yogurt, Baking Soda, Mustard Seeds, Curry Leaves, Green Chilies",Snack,Steam a fermented batter made from rice and chickpea flour for khaman dhokla.
+Shrikhand,250,1,cup,"Yogurt, Sugar, Cardamom, Saffron, Almonds, Pistachios",Dessert,"Combine strained yogurt with sugar, saffron, and cardamom for shrikhand."
+Dhokli,150,1,serving,"Wheat Flour, Gram Flour, Tuvar Dal, Tamarind, Jaggery, Mustard Seeds",Dinner,Prepare dhokli by rolling out dough into thin discs and boiling them in a lentil-based soup.
+Veg Momos,50,1,piece,"Steamed Flour Dumplings, Mixed Vegetables, Soy Sauce, Ginger, Garlic, Green Chilies",Snack,Steam or fry vegetable-filled dumplings for veg momos.
+Kesar Elaichi Srikhand,200,1,cup,"Yogurt, Sugar, Saffron, Cardamom",Dessert,Infuse strained yogurt with saffron and cardamom for kesar elaichi srikhand.
+Muthia,50,1,piece,"Gram Flour, Methi (Fenugreek) Leaves, Sesame Seeds, Mustard Seeds, Asafoetida",Snack,Mix grated vegetables with chickpea flour and spices; steam or fry into cylindrical shapes for muthia.
+Muthiya,50,1,piece,"Flour, Cilantro, Spinach, Gram Flour, Sesame Seeds, Turmeric, Salt",Snack,Prepare muthiya by steaming or frying dumplings made from a mixture of grated vegetables and spices.
+Masala Puri,150,1,serving,"Puri, Boiled Potatoes, Masala, Tamarind Chutney, Sev, Coriander, Onion",Snack,"Crushed puris mixed with spicy masala, boiled potatoes, and chutneys make masala puri."
+Chaat,200,1,plate,"Potatoes, Chickpeas, Yogurt, Tamarind Chutney, Sev, Chaat Masala, Coriander",Snack,"Combine various ingredients such as potatoes, chickpeas, yogurt, and chutneys for chaat."
+Hamburger,250,1,sandwich,"Beef Patty, Burger Bun, Lettuce, Tomato, Onion, Ketchup",Dinner,"Grill or cook a hamburger patty, place it in a bun, and add desired toppings."
+Pizza,300,1,slice,"Pizza Dough, Tomato Sauce, Cheese, Pepperoni, Herbs, Olive Oil",Dinner,"Top a pizza dough with tomato sauce, cheese, and your favorite toppings; bake until golden."
+Grilled Chicken Salad,150,1,serving,"Chicken Breast, Lettuce, Tomatoes, Cucumber, Olive Oil, Balsamic Vinegar","Lunch, Dinner",Grill chicken and place it over a bed of mixed greens for a grilled chicken salad.
+Apple Pie,300,1,slice,"Apples, Sugar, Cinnamon, Pie Crust, Butter, Lemon Juice","Dessert, Snack",Bake apples in a pie crust with sugar and spices for apple pie.
+Cheeseburger,300,1,sandwich,"Beef Patty, Burger Bun, Cheese, Lettuce, Tomato, Ketchup",Dinner,"Grill or cook a cheeseburger patty, place it in a bun, and add desired toppings."
+Coca-Cola,140,1,can,"Carbonated Water, High Fructose Corn Syrup, Caramel Color, Phosphoric Acid, Natural Flavors, Caffeine",Drink,Enjoy a classic carbonated beverage like Coca-Cola.
+Pasta,200,1,cup,"Spaghetti, Tomato Sauce, Garlic, Olive Oil, Basil, Parmesan Cheese",Dinner,Boil pasta until al dente; toss with your favorite sauce and toppings.
+Hot Dog,150,1,piece,"Hot Dog Bun, Sausage, Ketchup, Mustard, Relish, Onions","Snack, Dinner",Grill or boil hot dogs; place in buns; add desired toppings.
+Chocolate Chip Cookies,50,1,cookie,"Chocolate Chips, Butter, Flour, Sugar, Eggs, Vanilla Extract","Dessert, Snack",Mix cookie dough with chocolate chips; drop spoonfuls onto a baking sheet; bake until golden brown for chocolate chip cookies.
+Chicken Wings,480,6,wings,"Chicken Wings, Hot Sauce, Butter, Celery Sticks, Blue Cheese Dressing, Garlic Powder","Snack, Dinner",Bake or fry chicken wings; toss in your favorite sauce.
+Buffalo Chicken Wrap,400,1,wrap,"Chicken Breast, Flour Tortilla, Lettuce, Tomatoes, Ranch Dressing, Buffalo Sauce","Lunch, Dinner","Grill or cook chicken; toss with buffalo sauce; place in a wrap with lettuce, tomato, and ranch dressing for a buffalo chicken wrap."
+Caesar Salad,250,1,serving,"Romaine Lettuce, Croutons, Parmesan Cheese, Caesar Dressing, Lemon, Black Pepper","Breakfast,","Toss chopped romaine lettuce with Caesar dressing, croutons, and Parmesan cheese for a Caesar salad."
+Burrito Bowl,500,1,serving,"Rice, Black Beans, Chicken, Salsa, Guacamole, Sour Cream","Lunch, Dinner","Layer rice, beans, grilled chicken or beef, and assorted toppings in a bowl for a burrito bowl."
+Sushi Roll,200,1,roll,"Nori, Rice, Fish (Salmon, Tuna), Avocado, Cucumber, Soy Sauce",Dinner,"Roll sushi rice, seaweed, and your choice of fillings into a sushi roll."
+Club Sandwich,500,1,sandwich,"Turkey, Bacon, Lettuce, Tomato, Mayonnaise, Bread","Lunch, Dinner","Stack layers of turkey, bacon, lettuce, tomato, and mayo between slices of bread for a club sandwich."
+Pancakes,300,3,pancakes,"Flour, Baking Powder, Eggs, Milk, Butter, Maple Syrup",Breakfast,Cook pancakes on a griddle; serve with syrup and your favorite toppings.
+Waffles,250,2,waffles,"Waffle Batter, Maple Syrup, Butter, Fruit (optional)",Breakfast,"Cook waffles in a waffle iron; top with whipped cream, fruit, and syrup."
+Bacon And Egg Sandwich,450,1,sandwich,"Bacon, Eggs, Bread","Breakfast, Snack",Cook bacon until crispy; fry or scramble eggs; place between slices of bread for a bacon and egg sandwich.
+Subway Turkey Breast Sandwich,350,1,6pieceinch,"Turkey Breast, Bread, Lettuce, Tomato, Mayonnaise, Mustard","Lunch, Dinner",Assemble a Subway turkey breast sandwich with your favorite toppings and condiments.
+Blt Sandwich,450,1,sandwich,"Bacon, Lettuce, Tomato, Bread, Mayonnaise","Lunch, Dinner","Stack layers of bacon, lettuce, and tomato between slices of bread for a BLT sandwich."
+Chicken Quesadilla,450,1,serving,"Chicken, Cheese, Flour Tortilla, Peppers, Onions, Salsa","Lunch, Dinner","Fill a tortilla with cooked chicken, cheese, and vegetables; fold and cook for a chicken quesadilla."
+Shrimp Scampi,400,1,serving,"Shrimp, Linguine Pasta, Garlic, Lemon, Butter, Parsley",Dinner,Sauté shrimp in garlic and butter; toss with pasta and parsley for shrimp scampi.
+Chicken Caesar Wrap,350,1,wrap,"Chicken Breast, Romaine Lettuce, Caesar Dressing, Flour Tortilla, Parmesan Cheese","Lunch, Dinner",Toss grilled chicken with chopped romaine lettuce; drizzle Caesar dressing over the mixture; sprinkle with grated Parmesan cheese; spoon onto a wrap and fold for a chicken Caesar wrap.
+Taco Salad,400,1,serving,"Taco Shell, Lettuce, Tomatoes, Cheese, Ground Beef, Salsa","Lunch, Dinner","Brown ground beef with taco seasoning; place over a bed of lettuce; top with tomatoes, cheese, salsa, and sour cream for taco salad."
+Chili Cheese Fries,600,1,serving,"French Fries, Chili, Cheese Sauce","Snack, Dinner",Prepare chili; pour over a bed of crispy fries; top with shredded cheese for chili cheese fries.
+Cheese Fries,400,1,serving,"French Fries, Cheese Sauce","Snack, Dinner",Arrange crispy fries on a tray; melt cheese over the fries for cheese fries.
+Fish Tacos,300,2,tacos,"Tortillas, Fish Fillets, Cabbage Slaw, Avocado, Lime, Chipotle Sauce",Dinner,"Grill or fry fish; place in tortillas; top with cabbage, salsa, and a squeeze of lime for fish tacos."
+Onion Rings,400,1,serving,"Onions, Flour, Buttermilk, Salt, Pepper, Vegetable Oil","Snack, Dinner",Coat onion rings in seasoned flour; deep-fry until golden brown.
+Mozzarella Sticks,350,6,sticks,"Mozzarella Cheese, Bread Crumbs, Eggs, Marinara Sauce","Snack, Dinner",Coat mozzarella sticks in breadcrumbs; bake or fry until golden and gooey.
+Chicken Tenders,400,4,tenders,"Chicken Tenders, Flour, Eggs, Bread Crumbs, Salt, Pepper","Snack, Dinner","Coat chicken tenders in seasoned flour; dip in beaten eggs, coat with breadcrumbs; bake or fry until golden brown."
+Bbq Ribs,300,1,serving,"Pork Ribs, BBQ Sauce, Salt, Pepper, Paprika, Garlic Powder",Dinner,Rub BBQ seasoning on ribs; slow-cook or grill until tender; baste with BBQ sauce.
+Meatball Sub,400,1,sandwich,"Meatballs, Marinara Sauce, Sub Roll, Mozzarella Cheese, Parmesan Cheese, Basil",Dinner,Cook meatballs; simmer in tomato sauce; place in a sub roll; top with cheese and bake until melted for a meatball sub.
+Vegetarian Burrito,500,1,serving,"Rice, Black Beans, Corn, Salsa, Avocado, Tortilla","Lunch, Dinner","Sauté vegetables (bell peppers, onions, beans); add rice, salsa, and guacamole; wrap in a tortilla for a vegetarian burrito."
+Nachos With Cheese,400,1,serving,"Tortilla Chips, Cheese Sauce, Sour Cream, Guacamole, Salsa, Jalapeños","Snack, Dinner","Arrange tortilla chips on a tray; melt cheese over the chips; top with salsa, guacamole, and sour cream for nachos."
+Soft Pretzel,500,1,pretzel,"Flour, Yeast, Baking Soda, Salt, Water, Butter","Snack, Dinner",Boil pretzels in water with baking soda; bake until golden brown; sprinkle with salt.
+Chicken Alfredo Pasta,300,1,serving,"Fettuccine Pasta, Chicken, Alfredo Sauce, Garlic, Parmesan Cheese, Parsley",Dinner,Cook chicken; mix with Alfredo sauce and cooked pasta.
+Philly Cheesesteak Sandwich,600,1,sandwich,"Beef Steak, Rolls, Onion, Bell Peppers, Provolone Cheese, Mayonnaise",Dinner,Sauté thinly sliced beef with onions and bell peppers; place in a sub roll; top with melted cheese.
+Grilled Cheese Sandwich,500,1,sandwich,"Bread, Cheese, Butter","Snack, Dinner",Butter one side of bread slices; place cheese between slices; grill until golden brown.
+Doughnut,350,1,doughnut,"Flour, Sugar, Eggs, Milk, Vanilla Extract, Baking Powder","Dessert, Snack",Fry or bake doughnuts; glaze with icing or coat in cinnamon sugar.
+Ice Cream Cone,250,1,cone,"Ice Cream, Cone","Dessert, Snack",Scoop ice cream into a cone; top with sprinkles or chocolate sauce.
+Cheesecake,200,1,slice,"Cream Cheese, Sugar, Eggs, Sour Cream, Vanilla Extract, Graham Cracker Crust","Dessert, Snack","Mix cream cheese, sugar, and vanilla for cheesecake filling; pour over a graham cracker crust; refrigerate until set."
+Cupcake,300,1,cupcake,"Flour, Sugar, Eggs, Milk, Vanilla Extract, Baking Powder","Dessert, Snack",Bake cupcakes; frost with icing and decorate as desired.
+Peanut Butter And Jelly Sandwich,200,1,sandwich,"Peanut Butter, Jelly, Bread","Snack, Lunch",Spread peanut butter on one slice of bread; spread jelly or jam on the other slice; press the slices together.
+Smoothie,140,1,cup,"Fruit, Yogurt, Milk, Honey, Ice, Blender","Snack, Breakfast, Drink","Blend frozen mixed berries, banana, yogurt, and milk until smooth; sweeten with honey to taste."
+Chicken Nuggets,400,6,pieces,"Chicken, Breadcrumbs, Flour, Eggs, Salt, Pepper","Snack, Lunch, Dinner","Coat chicken pieces in flour, dip in beaten eggs, coat with bread crumbs; bake until golden brown and cooked through."
+Mushroom Swiss Burger,400,1,burger,"Mushrooms, Swiss Cheese, Beef Patty, Burger Bun, Lettuce, Tomato",Dinner,"Form ground beef into patties; season with salt and pepper; cook patties, sauté mushrooms, place on top of burgers; add Swiss cheese slices; serve in burger buns."
+Bbq Pulled Pork Sandwich,450,1,sandwich,"Pork Shoulder, BBQ Sauce, Rolls, Coleslaw","Lunch, Dinner",Heat pulled pork with BBQ sauce; pile onto burger buns; top with coleslaw if desired.
+Chow Mein,350,1,serving,"Noodles, Bean Sprouts, Carrots, Celery, Chicken, Soy Sauce",Dinner,"Cook egg noodles; stir-fry chicken or beef with garlic and ginger; add vegetables, cook until tender; toss in noodles and soy sauce."
+Egg Roll,200,1,roll,"Cabbage, Carrots, Pork, Soy Sauce, Garlic, Ginger","Snack, Dinner","Cook ground meat until browned; add shredded cabbage, carrots, soy sauce, and sesame oil; place filling in egg roll wrappers and fry until golden brown."
+General Tso'S Chicken,400,1,serving,"Chicken, Soy Sauce, Rice Vinegar, Sugar, Ginger, Garlic",Dinner,"Coat chicken in cornstarch and fry until crispy; mix soy sauce, ginger, garlic, sugar, vinegar, and red pepper flakes in a separate pan; add chicken and coat in the sauce."
+Mongolian Beef,350,1,serving,"Beef, Soy Sauce, Brown Sugar, Ginger, Garlic, Green Onions",Dinner,"Sauté beef until browned; mix soy sauce, brown sugar, garlic, and ginger in a sauce; add the sauce to the beef and cook until thickened; top with sliced green onions."
+Orange Chicken,300,1,serving,"Chicken, Orange Juice, Soy Sauce, Brown Sugar, Ginger, Garlic",Dinner,"Cook chicken until browned; mix orange juice, zest, soy sauce, brown sugar, and cornstarch in a sauce; add the sauce to the chicken and cook until thickened."
+Spaghetti And Meatballs,500,1,serving,"Spaghetti, Ground Beef, Tomato Sauce, Garlic, Parmesan Cheese, Italian Seasoning",Dinner,"Cook spaghetti; mix ground meat with bread crumbs, egg, and milk; form into meatballs; cook meatballs, simmer in tomato sauce; serve over spaghetti, top with Parmesan cheese."
+Clam Chowder,250,1,cup,"Clams, Potatoes, Bacon, Onion, Celery, Cream","Dinner, Soup","Cook bacon until crispy; sauté onion, celery, and garlic in bacon fat; add diced potatoes, clams, and chicken broth; simmer until potatoes are tender; stir in heavy cream, season to taste; garnish with crumbled bacon."
+Caesar Wrap,350,1,wrap,"Chicken, Romaine Lettuce, Caesar Dressing, Parmesan Cheese, Tortilla, Croutons","Lunch, Dinner",Toss grilled chicken with chopped romaine lettuce; drizzle Caesar dressing over the mixture; sprinkle with grated Parmesan cheese; spoon onto flour tortillas and wrap.
+Tuna Sandwich,450,1,sandwich,"Tuna, Bread, Mayonnaise, Celery, Onion, Lettuce","Lunch, Dinner","Mix canned tuna with mayonnaise, diced celery, and season with salt and pepper. Spread the tuna mixture on bread slices, add lettuce, and assemble into a sandwich."
+Chicken Burrito,400,1,serving,"Chicken, Rice, Black Beans, Salsa, Cheese, Tortilla","Lunch, Dinner","Cook seasoned chicken strips in a pan until fully cooked. Assemble the burrito with cooked rice, black beans, chicken, salsa, cheese, and sour cream."
+Chicken Caesar Salad,300,1,serving,"Chicken, Romaine Lettuce, Caesar Dressing, Parmesan Cheese, Croutons, Cherry Tomatoes","Lunch, Dinner","Toss grilled chicken strips with romaine lettuce, Caesar dressing, croutons, and Parmesan cheese."
+Turkey Club Sandwich,500,1,sandwich,"Turkey, Bacon, Lettuce, Tomato, Mayonnaise, Bread","Lunch, Dinner","Layer turkey slices, bacon, lettuce, tomato, and mayonnaise between three slices of toasted bread."
+Baked Ziti,400,1,serving,"Ziti Pasta, Tomato Sauce, Ricotta Cheese, Mozzarella Cheese, Parmesan Cheese, Ground Beef",Dinner,"Cook ziti pasta; layer with marinara sauce, ricotta, and mozzarella cheese; bake until bubbly."
+Shrimp Po' Boy Sandwich,450,1,sandwich,"Shrimp, French Bread, Lettuce, Tomato, Remoulade Sauce, Pickles",Dinner,"Coat shrimp in seasoned flour, fry until golden; assemble in a sandwich with lettuce and remoulade sauce."
+Chicken Fajitas,350,1,serving,"Chicken, Bell Peppers, Onion, Fajita Seasoning, Tortilla, Sour Cream",Dinner,Saute sliced chicken with bell peppers and onions; serve in tortillas with salsa and guacamole.
+Spinach And Artichoke Dip,400,1,serving,"Spinach, Artichoke Hearts, Cream Cheese, Sour Cream, Parmesan Cheese, Garlic","Dinner, Snack","Mix cream cheese, mayonnaise, spinach, artichokes, and Parmesan cheese; bake until hot and bubbly."
+Shrimp And Grits,450,1,serving,"Shrimp, Grits, Andouille Sausage, Bell Peppers, Onion, Garlic",Dinner,Cook shrimp in a savory sauce with garlic and Cajun spices; serve over creamy grits.
+Pumpkin Pie,300,1,slice,"Pumpkin Puree, Pie Crust, Sugar, Cinnamon, Nutmeg, Eggs","Dessert, Snack","Mix pumpkin puree, eggs, sugar, and spices; pour into a pie crust; bake until set."
+Cranberry Sauce,50,1,serving,"Cranberries, Sugar, Water, Orange Zest, Cinnamon, Orange Juice","Side Dish, Snack",Boil cranberries with sugar and water until they burst; chill before serving.
+Green Bean Casserole,150,1,serving,"Green Beans, Cream of Mushroom Soup, Fried Onions, Milk, Salt, Pepper","Side Dish, Dinner","Mix green beans with cream of mushroom soup, onions, and fried onions; bake until bubbly."
+Macaroni And Cheese,300,1,cup,"Elbow Macaroni, Cheddar Cheese, Milk, Butter, All-Purpose Flour, Mustard Powder","Side Dish, Dinner","Cook macaroni; make a cheese sauce with butter, flour, milk, and cheese; combine and bake."
+Sweet Potato Casserole,200,1,serving,"Sweet Potatoes, Brown Sugar, Eggs, Vanilla Extract, Butter, Pecans (topping)","Side Dish, Dinner","Mash sweet potatoes; mix with sugar, butter, eggs, and vanilla; top with pecans and bake."
+Cornbread,150,1,piece,"Cornmeal, Flour, Baking Powder, Milk, Eggs, Butter","Side Dish, Snack","Bake a savory cornbread with cornmeal, flour, buttermilk, and baking powder."
+Beef Stroganoff,400,1,serving,"Beef Strips, Mushrooms, Onion, Sour Cream, Beef Broth, Egg Noodles",Dinner,Cook beef in a creamy mushroom sauce; serve over noodles or rice.
+Chicken Pot Pie,350,1,serving,"Chicken, Carrots, Peas, Potatoes, Puff Pastry, Chicken Broth",Dinner,"Make a savory filling with chicken, veggies, and broth; bake with a pie crust until golden."
+Chicken And Dumplings,300,1,serving,"Chicken, Flour, Baking Powder, Milk, Butter, Chicken Broth",Dinner,"Cook chicken with vegetables in broth; make dumplings with flour, baking powder, and milk; drop into simmering broth until cooked through."
+Meatloaf,250,1,slice,"Ground Beef, Bread Crumbs, Onion, Milk, Eggs, Ketchup (topping)",Dinner,"Mix ground beef, breadcrumbs, eggs, and seasonings; shape into a loaf; bake until cooked through."
+Potato Salad,200,1,cup,"Potatoes, Mayonnaise, Mustard, Pickles, Hard-Boiled Eggs, Celery","Lunch, Dinner","Boil potatoes until tender; mix with mayo, mustard, and seasonings; chill before serving."
+Coleslaw,150,1,cup,"Cabbage, Carrots, Mayonnaise, Vinegar, Sugar, Celery Seed","Lunch, Dinner, Snack","Shred cabbage and carrots; mix with mayo, vinegar, sugar, and seasonings; refrigerate until cold."
+Buffalo Wings,500,6,wings,"Chicken Wings, Hot Sauce, Butter, Celery Sticks, Blue Cheese Dressing, All-Purpose Flour","Lunch, Dinner, Snack",Deep-fry chicken wings until crispy; toss in buffalo sauce made from hot sauce and butter.
+Cajun Shrimp Pasta,450,1,serving,"Shrimp, Pasta, Cajun Seasoning, Butter, Heavy Cream, Garlic",Dinner,"Cook shrimp in Cajun seasoning, garlic, and cream; toss with cooked pasta."
+Shrimp And Crab Boil,400,1,serving,"Shrimp, Crab, Corn on the Cob, Potatoes, Cajun Seasoning, Lemon",Dinner,"Boil shrimp, crab, potatoes, corn, and seasonings; drain and serve."
+Lobster Roll,450,1,sandwich,"Lobster Meat, Mayonnaise, Celery, Lemon Juice, Butter, Hot Dog Bun","Lunch, Dinner",Fill a split-top bun with lobster meat; serve with melted butter and lemon.
+New York Cheesecake,350,1,slice,"Cream Cheese, Sugar, Eggs, Sour Cream, Vanilla Extract, Graham Cracker Crust","Snack, Dessert","Mix cream cheese, sugar, and vanilla; pour into a graham cracker crust; chill until set."
+Bagel With Cream Cheese,300,1,bagel,"Bagel, Cream Cheese, Smoked Salmon (optional), Red Onion (optional), Capers (optional), Dill (optional)","Breakfast, Snack","Spread cream cheese on a bagel; serve with smoked salmon, capers, and red onion."
+Blueberry Pancakes,300,3,pancakes,"Pancake Mix, Blueberries, Milk, Eggs, Butter, Maple Syrup",Breakfast,"Make a batter with flour, sugar, baking powder, and blueberries; cook on a griddle until golden brown."
+French Toast,250,2,slices,"Bread, Eggs, Milk, Cinnamon, Vanilla Extract, Butter",Breakfast,"Whisk together eggs, milk, and cinnamon; dip bread slices into the mixture; cook on a griddle until golden brown; serve with maple syrup."
+Monte Cristo Sandwich,500,1,sandwich,"Ham, Turkey, Swiss Cheese, Bread, Eggs, Milk","Lunch, Dinner","Layer ham, turkey, and Swiss cheese between bread slices; dip in beaten eggs; grill until golden brown; dust with powdered sugar; serve with jam."
+Cinnamon Roll,350,1,roll,"Flour, Sugar, Cinnamon, Butter, Yeast, Cream Cheese (for frosting)","Breakfast, Snack, Dessert","Roll out prepared dough into a rectangle; spread sugar and cinnamon mixture; roll, cut, and bake until golden; top with cream cheese frosting."
+Caramel Popcorn,150,1,cup,"Popcorn, Butter, Brown Sugar, Corn Syrup, Baking Soda, Vanilla Extract","Snack, Dessert","Popcorn coated with caramel sauce made from sugar, butter, and corn syrup; bake until crispy."
+Garlic Bread,100,1,piece,"Bread, Butter, Garlic, Parsley, Olive Oil","Dinner, Snack",Mix softened butter with minced garlic and chopped parsley; spread on bread slices; toast until golden brown.
+Biscuits And Gravy,300,1,serving,"Biscuits, Sausage, Milk, Flour, Salt, Pepper",Breakfast,"Make biscuits; cook sausage; make gravy with flour, milk, and sausage; serve over biscuits."
+Fried Catfish,250,1,fillet,"Catfish fillets, Cornmeal, Flour, Salt, Pepper, Cooking Oil",Dinner,Dip catfish fillets in seasoned flour; fry until golden brown; serve with lemon wedges.
+Hushpuppies,200,6,pieces,"Cornmeal, Flour, Baking Powder, Salt, Onion, Buttermilk","Snack, Dinner","Mix cornmeal, flour, and seasonings; drop spoonfuls into hot oil; fry until golden brown."
+Country Fried Steak,400,1,serving,"Beef Steak, Flour, Eggs, Milk, Salt, Pepper",Dinner,"Bread and fry steak cutlets; make creamy gravy with flour, milk, and drippings; serve over steak."
+Corned Beef Hash,350,1,cup,"Corned Beef, Potatoes, Onion, Butter, Salt, Pepper","Breakfast, Lunch","Mix corned beef, potatoes, and onions; cook until crispy; serve with eggs."
+Reuben Sandwich,500,1,sandwich,"Corned Beef, Swiss Cheese, Sauerkraut, Rye Bread, Thousand Island Dressing, Butter","Lunch, Dinner","Layer corned beef, sauerkraut, Swiss cheese, and Russian dressing between rye bread slices; grill until heated through."
+Noodles,221,1,serving,"Noodle,Spices,Flour,Onion","Dinner,Snack","Boil the noodles according to the package instructions until al dente; drain and rinse under cold water;
+
+In a small bowl, mix soy sauce, oyster sauce, sesame oil, sugar, and black pepper; adjust seasoning to taste;
+
+Heat vegetable oil in a large wok or skillet over medium-high heat;
+
+Add minced garlic and ginger; stir-fry for about 30 seconds until fragrant;
+
+Add thinly sliced mixed vegetables to the wok and stir-fry for 2-3 minutes until slightly tender;
+
+Add the cooked noodles to the wok and pour the prepared sauce over them;
+
+Toss everything together using tongs or chopsticks until the noodles are evenly coated with the sauce;
+
+Continue to stir-fry for an additional 2-3 minutes, allowing flavors to meld and noodles to absorb the sauce;
+
+Taste and adjust seasoning if needed;
+
+Transfer stir-fried noodles to a serving platter;
+
+Garnish with optional toppings like sliced green onions, sesame seeds, and crushed red pepper flakes;
+
+Serve and enjoy your homemade stir-fried noodles; you can also add protein such as chicken, shrimp, tofu, or beef if desired."
